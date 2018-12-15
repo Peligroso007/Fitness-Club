@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+body {
+    background-image: url(images/shutterstock_749969473.jpg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+	overflow: scroll;
+}
+#log{
+    position: relative;
+    float: right;
+    margin-right: 10%;
+    font-size: 15px;
+    
+    
+}
+#log a {
+    font-family: lobster;
+    color: rgb(12, 75, 170);
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+#logo {
+    position: absolute;
+    height: 15%;
+    width: 12%;
+    margin-left: 30%;
+}
+h2 {
+    position: absolute;
+    font-family: lobster;
+    margin-left: 43%;
+    color: rgb(20, 255, 255);
+    font-size: 35px;
+}
+#nav {
+    float: left;
+    position: relative;
+}
+ul li {
+    float: left;
+    list-style: none;
+}
+ ul li a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+}
+h3 {
+    font-family: lobster;
+    font-size: 35px;
+    display: inline-block;
+    padding: 15px;
+    background: rgba(5, 5, 5, 0.363);
+    color: aqua;
+}
+#contain {
+    position: absolute;
+    margin-top: 10%;
+    text-align: center;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+#details {
+    width: 60%;
+    margin-left: 20%;
+}

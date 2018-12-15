@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+body {
+    background-image: url(images/shutterstock_749969473.jpg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+	overflow: scroll;
+}
+#log{
+    position: relative;
+    float: right;
+    margin-right: 5%;
+    font-size: 15px;
+    
+    
+}
+#log a {
+    font-family: lobster;
+    color: rgb(12, 75, 170);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#logo {
+    position: absolute;
+    height: 15%;
+    width: 12%;
+    margin-left: 30%;
+}
+h2 {
+    position: absolute;
+    font-family: lobster;
+    margin-left: 43%;
+    color: rgb(12, 75, 170);
+    font-size: 35px;
+}
+#nav {
+    float: left;
+    position: relative;
+}
+ul li {
+    float: left;
+    list-style: none;
+}
+ ul li a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    margin-left: 20px;
+}
+#choose {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 27%;
+}
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  table {
+      margin-top: 50%;
+  }
+  .con {
+      position: absolute;
+      margin-top: 30%;
+      margin-left: 38%;
+  }
+  h3 {
+    font-family: lobster;
+    font-size: 25px;
+    color: aqua;
+  }
